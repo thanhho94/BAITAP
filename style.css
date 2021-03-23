@@ -1,0 +1,78 @@
+*{margin: 0px;
+padding: 0px;
+}
+
+nav{
+    text-align: right;
+}
+nav > a{
+    margin-right: 1rem;
+}
+
+.container{
+    text-align: center;
+}
+.google{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+
+}
+input{
+    margin:1rem;
+}
+
+.btn{
+    margin:1rem;
+    width: 250px;
+    height: 25px;
+}
+sections{
+position: absolute;
+top: 30%;
+width: 100%;
+text-align: center;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(220, 220, 220);
+    text-align: center;
+    padding:1rem;
+}
+
+.top{
+    text-align:left;
+  
+}
+
+.bottom{
+    text-align:left;
+  
+}
+.left{
+    
+    margin: auto;
+    display: inline-block;
+}
+.left > span {
+    margin-right: 1rem;
+}
+.right{
+    text-align:right;
+    margin-left: 1200px;
+    display: inline-block;
+
+}
+.right > span {
+    margin-right: 1rem;
+    display: block;
+}
+
+.search{
+    border: 1px solid black;
+}
