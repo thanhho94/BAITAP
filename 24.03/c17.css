@@ -1,0 +1,30 @@
+.container{
+    padding:30px;
+    color: black;
+    text-align: center;
+}
+
+.item{
+    border:1px solid gray;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}   
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.row1 div{
+    flex-basis: 30%;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 div{
+    flex-basis:22%;
+}
