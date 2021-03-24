@@ -1,0 +1,280 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    padding:20px;
+    height:80vh;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    
+    /* (5) flex-direction: row-reverse; */
+   
+   
+   /* (3) (9) justify-content: center; */
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border:1px solid gray;
+    background-color: gainsboro;
+    padding:10px;
+    margin: 10px;
+  }
+/* Challenges 1
+.box-1{
+    margin-right: auto;
+}
+*/
+
+/* challenges 2
+.box-2{
+    margin: auto;
+}
+.box-3{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+*/
+
+/* challenges 3
+.box-4{
+    position: relative;
+    width:300px;
+    height: 300px;
+}
+
+.box-5{
+    position:absolute;
+    margin: 75px;;
+
+}
+*/
+/* challenges 4 
+
+.box-5{
+ position:absolute;
+ top: 25px;
+ left: 25px;
+}
+*/
+
+/* challenges 5 
+.box-2{
+    margin:auto;
+}
+.box-3{
+    pos:absolute;
+    bottom:25px;
+    left:25px;
+}
+*/
+
+/* challenges 6
+
+.box-1{
+    width: 1000px;
+    height:400px;
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+}
+.box-2{
+     position: absolute;
+     top:0px;
+     right: 0px;
+}
+.box-3{
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+}
+ */
+/* challenges 7
+ .box-1{
+     width: 300px;
+     height:300px;
+     position: absolute;
+     top:0px;
+     left: 0px;
+ }
+ .box-2{
+     position: absolute;
+     bottom:0px;
+     right: 0px;
+ }
+ */
+/* challenges 8
+ .box-1{
+    width: 300px;
+    height:300px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.box-2{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+*/
+/* challenges 9
+.box-1{
+    width: 300px;
+    height:300px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.box-2{
+    position: absolute;
+    top:0px;
+    right: 100px;
+}
+.box-3{
+        position: absolute;
+        bottom: 0px;
+        right: 100px;
+}
+*/
+/* challenges 10 
+.box-1{
+    display: flex;
+	justify-content: space-around;
+	height: 150px;
+    width: 1200px;
+    position: relative;
+    align-items: center;
+}
+span{
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+*/
+/* challenges 11 
+.box-1{
+    width: 400px;
+    height:800px;
+    position: absolute;
+}
+
+.box-2{
+    width: 300px;
+    height:400px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+
+.box-3{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+
+*/
+/* challenges 12
+.box-1{
+    width: 400px;
+    height:800px;
+    position: absolute;
+}
+.box-2{
+    width: 300px;
+    height:400px;
+    position: absolute;
+    bottom:0px;
+    right:-200px;
+}
+
+.box-3{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    bottom:-200px;
+    right:160px;
+}
+
+*/
+
+/* challenges 13
+.box-1{
+    position: relative;
+}
+.box-2{
+    left: 30px;
+    top:30px;
+    position: absolute;
+}
+.box-3{
+    left: 30px;
+    top:30px;
+    position: absolute;
+}
+.box-4{
+    left: 30px;
+    top:30px;
+    position: absolute;
+}
+.box-5{
+    left: 30px;
+    top:30px;
+    position: absolute;
+}
+.box-6{
+    left: 30px;
+    top:30px;
+    position: absolute;
+}
+
+*/
+/* challenges 14
+.box-1{
+    position: absolute;
+    right:0px;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+}
+.box-2{
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+  
+}
+*/
+.box-1{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.box-3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:0px;
+    bottom:0px;
+}
+.box-4{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+}
