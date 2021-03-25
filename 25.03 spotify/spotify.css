@@ -1,0 +1,98 @@
+body{
+    margin:0px;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin:auto;
+    display:flex;
+    padding: 20px;   
+    }
+
+nav{
+    color: white;
+    background-color:black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+.link{
+    margin-left: auto;
+    align-items: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    margin:1rem;
+}
+
+a:hover{
+    color: #1ed760;
+}
+
+span{
+    pointer-events: none;
+}
+
+section{
+    height:60vh;
+    padding:10px 10%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+section:nth-of-type(1){
+    background-color:#ff4632;
+}
+
+section:nth-of-type(2){
+    background-color:#cb1582;
+}
+
+section:nth-of-type(3){
+    background-color:#2d46b9;
+}
+
+col{
+    flex: 1;
+    margin:1rem;
+  
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+    
+#section1{
+    padding-top: 60px;
+    align-items: center;
+}
+
+.bottom-box{
+    position: relative;
+    width: 527px;
+    height:320px;
+    background-color: coral;
+    margin:1rem;
+ 
+}
+
+.top-box{
+    position: absolute;
+    width: 417px;
+    height:440px;
+    background-color: cyan;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#section3{
+    background-image:url(images/Lie_circles.svg);
+    background: no-repeat;
+}
